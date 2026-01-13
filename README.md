@@ -79,7 +79,7 @@ careerguide-nextjs-app/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/asharibhussain/careerguide-nextjs-app.git
+   git clone https://github.com/asharibhussain/careerguide-nextjs-apps.git
    cd careerguide-nextjs-app
    ```
 
