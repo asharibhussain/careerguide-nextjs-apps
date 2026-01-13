@@ -1,0 +1,124 @@
+@import '../../abstracts/fonts';
+@import '../../abstracts/typography';
+@media (max-width: 767px) {
+	.main_search_page {
+		.search {
+			.post_detail {
+				.about_img {
+					img {
+						height: 169px !important;
+						
+					}
+				}
+				.heading_logo {
+					h5 {
+						font-size: $font-size-16 !important;
+						line-height: $leading--14 !important;
+					}
+					padding: 15px !important;
+				}
+				.card-body {
+					padding: 12px !important;
+				}
+				.table_vertical {
+					padding: 0px 14px 15px 14px !important;
+					tr {
+						th {
+							font-size: $font-size-14 !important;
+							width: 42% !important;
+							line-height: $leading--10 !important;
+							letter-spacing: -0.28px !important;
+						}
+						td {
+							font-size: $font-size-14 !important;
+							width: 42% !important;
+							line-height: $leading--10 !important;
+							letter-spacing: -0.28px !important;
+							button {
+								font-size: $font-size-12 !important;
+								line-height: $leading--21 !important;
+							}
+						}
+					}
+					.post_heading {
+						h6 {
+							font-size: $font-size-14 !important;
+							width: 42% !important;
+							line-height: $leading--10 !important;
+							letter-spacing: -0.28px !important;
+						}
+						p {
+							button {
+								font-size: $font-size-12 !important;
+								line-height: $leading--21 !important;
+							}
+							font-size: $font-size-12 !important;
+							line-height: $leading--22 !important;
+							letter-spacing: -0.24px !important;
+						}
+					}
+				}
+				.my_slider_company_about {
+					.slick-prev {
+						left: -18px;
+						&:before {
+							height: 40px !important;
+							width: 40px !important;
+						}
+					}
+					.slick-next {
+						right: 2px !important;
+						&:before {
+							height: 40px !important;
+							width: 40px !important;
+						}
+					}
+				}
+				.about_us_detail {
+					h3 {
+						font-size: $font-size-24 !important;
+						line-height: $leading--6 !important;
+					}
+					p {
+						font-size: $font-size-13 !important;
+						line-height: $leading--23 !important;
+					}
+				}
+				.benefits_icons_list {
+					h3 {
+						font-size: $font-size-24 !important;
+						line-height: $leading--6 !important;
+					}
+				}
+				.more_dettails {
+					top: 30px !important;
+				}
+				.less_dettails {
+					top: 30px !important;
+				}
+			}
+			.companies_tags {
+				h5 {
+					font-size: $font-size-14 !important;
+					line-height: $leading--14 !important;
+					letter-spacing: -0.14px !important;
+					text-transform: capitalize !important;
+					max-width: 323px !important;
+				}
+				.tags_list {
+					font-size: $font-size-12 !important;
+				}
+			}
+			.refine_search_card {
+				.card-header {
+					padding: 4px 4px 4px 20px !important;
+					align-items: center;
+					h3 {
+						font-size: $font-size-14 !important;
+						font-family: Inter-SemiBold,sans-serif !important;
+					}
+				}
+			}
+		}
+	}
+}

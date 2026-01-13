@@ -1,0 +1,80 @@
+// @import '../../../../styles/scss/abstracts/fonts';
+// @import '../../../../styles/scss/abstracts/typography';
+@import '../../abstracts/fonts';
+@import '../../abstracts/typography';
+@media (max-width: 991px) {
+	.footer {
+		.footer-top {
+			form {
+				input[type=submit] {
+					font-size: $font-size-12 !important;
+				}
+				img {
+					right: 7px !important;
+					width: 14px !important;
+				}
+				input[type=email] {
+					font-size: $font-size-12 !important;
+				}
+				width: 100%;
+			}
+			padding-top: 30px;
+			padding-bottom: 30px;
+			h1 {
+				font-size: $font-size-32;
+				line-height: $leading--20;
+				letter-spacing: 1.28px;
+			}
+			h4 {
+				font-size: $font-size-16;
+			}
+			ul {
+				li {
+					font-size: $font-size-14;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.footer {
+		.footer-top {
+			form {
+				input[type=email] {
+					font-size:$font-size-12 !important;
+					width: calc(91% - 100px) !important;
+				}
+				input[type=submit] {
+					font-size: $font-size-12 !important;
+					padding: 0 30px 0 14px !important;
+				}
+			}
+		}
+		.copyright {
+			ul {
+				li {
+					font-size: $font-size-12!important;
+					margin-right: 18px !important;
+					line-height: $leading--18 !important;
+				}
+			}
+			.copyright_career {
+				font-size: $font-size-12 !important;
+				text-align: center !important;
+				margin-bottom: 15px;
+			}
+		}
+	}
+}
+@media (min-width: 992.5px) and (max-width: 1200px) {
+	.footer {
+		.footer-top {
+			form {
+				width: 100% !important;
+				input[type=email] {
+					width: calc(83% - 100px) !important;
+				}
+			}
+		}
+	}
+}

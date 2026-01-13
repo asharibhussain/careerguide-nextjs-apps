@@ -1,0 +1,85 @@
+@import '../../abstracts/fonts';
+@import '../../abstracts/typography';
+
+@media (min-width: 992.5px) and (max-width: 1200px) {
+	.popular_employers {
+		.popular_employers_container {
+			.card {
+				.dual_button {
+					padding: 16px 18px 16px 18px;
+					font-size: $font-size-14;
+				}
+			}
+			h1 {
+				font-size: $font-size-52;
+				line-height: $leading--5;
+			}
+		}
+	}
+}
+@media (max-width: 991px) {
+	.popular_employers {
+		padding-top: 50px !important;
+		padding-bottom: 50px !important;
+		.popular_employers_container {
+			.card {
+				.card-body {
+					padding: 20px !important;
+				}
+				h5 {
+					font-size: $font-size-20 !important;
+					line-height: $leading--26 !important;
+					letter-spacing: -0.8px !important;
+				}
+				p {
+					font-size: $font-size-14 !important;
+					font-weight: $weight--500 !important;
+					line-height: $leading--20 !important;
+				}
+			}
+			h1 {
+				font-size: $font-size-48 !important;
+				line-height: $leading--54 !important;
+				letter-spacing: -1.44px !important;
+				margin-bottom: 30px;
+			}
+			.dual_button {
+				padding: 12px 20px 12px 20px !important;
+				font-size: $font-size-12 !important;
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.popular_employers {
+		.popular_employers_container {
+			.dual_button {
+				img {
+					width: 15px;
+					height: 15px;
+				}
+			}
+			.card {
+				.card-body {
+					padding: 15px !important;
+				}
+				h5 {
+					font-size: $font-size-18 !important;
+					line-height: $leading--24 !important;
+					letter-spacing: -0.72px !important;
+				}
+				p {
+					font-size: $font-size-12 !important;
+					line-height: $leading--20 !important;
+				}
+			}
+			h1 {
+				font-size: $font-size-22 !important;
+				line-height: $leading--26 !important;
+			}
+		}
+		padding-top: 40px !important;
+		padding-bottom: 40px !important;
+	}
+}
+

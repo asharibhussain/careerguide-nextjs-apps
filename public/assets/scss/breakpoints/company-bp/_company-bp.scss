@@ -1,0 +1,129 @@
+
+@media (max-width: 991px) {
+	.companies_banner {
+		.companies_banner_container {
+			.box_green {
+				left: 0 !important;
+				bottom: 30% !important;
+			}
+			.banner_heading_company {
+				form {
+					img {
+						margin-top: 0px;
+					}
+					width: 92% !important;
+					input[type=email] {
+						font-size: 14px !important;
+					}
+					input[type=submit] {
+						font-size: 14px !important;
+					}
+				}
+				h1 {
+					font-size: 44px !important;
+					line-height: 48px !important;
+					margin-bottom: 10px !important;
+				}
+				p {
+					font-size: 14px !important;
+					line-height: 20px !important;
+					margin-bottom: 10px !important;
+				}
+			}
+			img {
+				max-width: 15%;
+				margin-top: 5%;
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.companies_banner {
+		.companies_banner_container {
+			.banner_heading_company {
+				padding: 40px !important;
+				h1 {
+					font-size: 24px !important;
+					line-height: 30px !important;
+					margin-bottom: 5px !important;
+					letter-spacing: -0.56px !important;
+				}
+				p {
+					font-size: 12px !important;
+				}
+				form {
+					width: 100% !important;
+					padding: 5px 10px !important;
+					margin-top: 10px !important;
+					img {
+						right: 15px !important;
+						font-size: 10px !important;
+						width: 12px !important;
+					}
+					input[type=submit] {
+						padding: 0 25px 0 15px !important;
+						font-size: 10px !important;
+					}
+					input[type=email] {
+						font-size: 10px !important;
+						width: calc(110% - 100px) !important;
+					}
+				}
+			}
+		}
+	}
+}
+$font-family_1: Inter-SemiBold,sans-serif;
+
+@media (min-width: 992.5px) and (max-width: 1200px) {
+	.main_company_page {
+		.companies_logos {
+			.companies_logos_container {
+				.companies_logo_cards {
+					.logo_button {
+						font-size: 12px !important;
+						height: 46px !important;
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.main_company_page {
+		.companies_logos {
+			.companies_logos_container {
+				.companies_logo_cards {
+					.logo_div {
+						padding: 15px !important;
+						height: 75px !important;
+						.roll_logo {
+							height: 60px !important;
+						}
+					}
+					h5 {
+						font-size: 14px !important;
+						line-height: 18px !important;
+					}
+					.logo_button {
+						padding: 10px 8px !important;
+						font-size: 12px !important;
+					}
+					.card-body {
+						padding: 10px;
+					}
+				}
+				.refine_search_card {
+					.card-header {
+						h3 {
+							font-size: 14px !important;
+							font-family: $font-family_1 !important;
+						}
+						padding: 4px 4px 4px 20px !important;
+						align-items: center;
+					}
+				}
+			}
+		}
+	}
+}

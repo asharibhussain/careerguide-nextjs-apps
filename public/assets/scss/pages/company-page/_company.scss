@@ -1,0 +1,104 @@
+@import '../../abstracts/colors';
+@import '../../abstracts/fonts';
+@import '../../abstracts/typography';
+.companies_banner {
+	margin-bottom: 50px;
+	background: $deep-ocean-blue;
+	.companies_banner_container {
+		max-width: 1440px;
+		background: $deep-ocean-blue;
+		.box_green {
+			position: absolute;
+			bottom: 0;
+			left: o;
+			img {
+				width: 80%;
+			}
+		}
+		.box_transperent {
+			img {
+				width: 80%;
+			}
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+		.banner_heading_company {
+			padding: 60px 0;
+			h1 {
+				color: $pure-white;
+				text-align: center;
+				font-family: $font-family_2;/*h*/
+				font-size: $font-size-54;
+				line-height: $leading--7;
+				letter-spacing: -2.56px;
+				margin-bottom: 15px;
+			}
+			p {
+				color: $pure-white;
+				font-family: $font-family_6;
+				font-size: $font-size-16;
+				line-height: $leading--8;
+				letter-spacing: -0.6px;
+				text-transform: capitalize;
+			}
+			form {
+				width: 70%;
+				background:$deep-ocean-subtle ;
+				padding: 14px 10px;
+				position: relative;
+				border-radius: 100px;
+				border: 1px solid $soft-white;
+				text-align: left;
+				margin-top: 30px;
+				margin-left: auto;
+				margin-right: auto;
+				display: flex;
+				align-items: center;
+				input[type=email] {
+					border: 0;
+					font-size: $font-size-16;
+					padding: 6px 8px;
+					font-style: italic;
+					color: $white-glow;
+					background: transparent;
+					outline: none;
+					width: calc(98% - 100px);
+					font-family: $font-family_2;
+				}
+				input[type=submit] {
+					position: absolute;
+					margin: 6px;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					border: 0;
+					font-size: $font-size-16;
+					font-family: $font-family_5;
+					padding: 0 40px 0 20px;
+					border-radius: 100px;
+					background: $vibrant-lime-green;
+					color: $pure-white;
+					transition: 0.4s;
+					border: $vibrant-lime-green 1px solid;
+					box-shadow: 0px 2px 15px $soft-black;
+					&:hover {
+						background: transparent;
+						border: $vibrant-lime-green 1px solid;
+					}
+				}
+				img {
+					color: $pure-white;
+					right: 23px;
+					position: absolute;
+				}
+			}
+		}
+	}
+}
+.companies_logos {
+	overflow: unset;
+}
+
+
+@import '../../breakpoints/company-bp/company-bp';

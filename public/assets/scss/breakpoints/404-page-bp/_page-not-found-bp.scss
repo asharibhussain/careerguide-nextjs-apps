@@ -1,0 +1,18 @@
+@import '../../abstracts/fonts';
+@import '../../abstracts/typography';
+@media (max-width: 500px) {
+	.page_not_found {
+		.img_404 {
+			margin-bottom: 20px;
+		}
+		.not_found {
+			font-size: $font-size-40;
+			line-height: $leading--9;
+		}
+		p {
+			font-size: $font-size-14;
+			line-height: $leading--10;
+			margin-top: 10px;
+		}
+	}
+}

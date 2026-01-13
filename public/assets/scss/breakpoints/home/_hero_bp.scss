@@ -1,0 +1,160 @@
+@import '../../abstracts/fonts';
+@import '../../abstracts/typography';
+@media (max-width: 1220px) {
+    .international_companies {
+    .international_companies_container {
+        .faqs_card {
+        .card {
+            margin-left: 20px;
+        }
+        }
+    }
+    }
+}
+@media (max-width: 991px) {
+    .international_companies {
+    .international_companies_container {
+        .heading_divider {
+        h1 {
+            font-size: $font-size-56;
+            line-height: $leading--7;
+        }
+        }
+
+        .block_images {
+        margin-top: 25px;
+
+        .left_blocks img {
+            width: 96px;
+            margin-right: -50px;
+        }
+
+        .right_blocks img {
+            width: 96px;
+            margin-top: 0;
+            margin-left: 50px;
+        }
+        }
+
+        .faqs_card {
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-top: -10px;
+
+        .card {
+            width: 100%;
+            margin-left: 0px;
+
+                .card-body {
+                padding: 23px;
+
+            .select-selected {
+                font-size: $font-size-15 !important;
+                line-height: $leading--8 !important;
+                letter-spacing: -0.45px !important;
+            }
+
+            select:focus {
+                font-size: $font-size-18;
+            }
+            }
+        }
+        }
+
+        .block_images {
+        h5 {
+            font-size: $font-size-20;
+        }
+        }
+
+        .faqs_card {
+        .card {
+            .accordion-body {
+            ul li {
+                padding: 10px 20px !important;
+                font-size: $font-size-15 !important;
+                line-height: $leading--14 !important;
+            }
+            }
+        }
+        }
+    }
+    }
+}
+@media (max-width: 767px) {
+    .international_companies {
+    .international_companies_container {
+        .heading_divider {
+        .studies_divider {
+            line-height: $leading--17 !important;
+
+            img {
+            max-width: 115px !important;
+            }
+        }
+
+        h1 {
+            font-size: $font-size-40;
+            line-height: $leading--3;
+        }
+        }
+
+        .block_images {
+        .right_blocks img {
+            margin-left: -20px;
+        }
+        }
+
+        .faqs_card {
+        .card {
+            .card-body {
+            padding: 20px !important;
+
+            .select-selected, .select_information .select_information_container .select_information_card .card-body .select-selected     {
+                font-size: $font-size-14 !important;
+                line-height: $leading--10 !important;
+                letter-spacing: -0.28px !important;
+            }
+            }
+        }
+        }
+    }
+    }
+}
+@media (max-width: 430px) {
+    .international_companies {
+    .international_companies_container {
+        .heading_divider {
+        h1 {
+            font-size: $font-size-32;
+            line-height: $leading--24;
+        }
+        }
+
+        .block_images {
+        h5 {
+            font-size: $font-size-16;
+            line-height: $leading--14;
+            letter-spacing: -0.48px;
+            
+        }
+
+        .left_blocks img {
+            width: 68px;
+            margin-top: -35px;
+        }
+
+        .right_blocks img {
+            margin-left: -45px;
+            margin-top: -35px;
+        }
+        }
+
+        .faqs_card {
+        margin-top: 5px;
+        padding-left: 0px;
+        padding-right: 0;
+        }
+    }
+    }
+}

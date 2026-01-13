@@ -1,0 +1,81 @@
+//============
+// Colors
+//============
+
+// Color Variable Assignments in SCSS
+$darkGreen: #0D3D5614;
+$color-white: #ffffff;
+$deep-ocean-blue: #0D3D56;
+$vibrant-lime-green: #8AD43D;
+$pure-white: #fff;       // Note: #FFFFFF could also be used
+$light-gray: #f0f0f0;
+$medium-gray: #ccc;
+$DarkBlueTransparent:#0D3D561F;
+$dark-ocean-blue: #0c3c53;
+$natural-beige: beige;   // Typically represented as #F5F5DC
+$sky-blue: #47b2e4;
+$teal-deep: #174954;
+$off-white: #FAFAFA;
+$pale-lime-yellow: #F0FAE6;
+$soft-lime: #DCF2C5;
+$cerulean: #26C4F1;
+$very-light-blue: #F5F7F8;
+$ice-white: #F8F9FA;
+$dark-gray: #777;
+$light-gray-2: #EBEBEB;
+
+// Color Definitions rgb
+$black: rgba(0, 0, 0, 1);
+$custom-green-transparent: rgba(138, 212, 61, 0.19);
+$custom-green-transparent-light: #8ad43d30;
+$custom-green: rgba(138, 212, 61, 0);
+$dusky-sky :rgba(127, 137, 161, 0.25);
+$deep-ocean-light :rgba(13, 61, 86, 0.20);
+$deep-ocean-blue-light-fade: rgba(13, 61, 86, 0.08);
+$color-box-shadow: rgba(127, 137, 161, 0.25);
+$deep-ocean-lighter: rgba(13, 61, 86, 0.12);
+$light-green: rgba(138, 212, 61, 0.16);
+$deep-ocean-lightest: rgba(13, 61, 86, 0.07);
+$ocean-blue: rgba(13, 61, 86, 0.6);
+$night-sky-dense: rgba(40, 58, 90, 0.9);
+$sunset-yellow: rgba(246, 193, 66, 1);
+$deep-ocean-translucent: rgba(13, 61, 86, 0.03);
+$ocean-deep: rgba(13, 61, 86, 0.68);
+$deep-ocean-semi-translucent: rgba(13, 61, 86, 0.16);
+$soft-black: rgba(0, 0, 0, 0.1);
+$ocean-blue-deep: rgba(13, 61, 86, 0.64);
+$lime-splash: rgba(138, 212, 61, 0.72);
+$ocean-deepest: rgba(13, 61, 86, 1);
+$light-lime: rgba(138, 212, 61, 0.33);
+$lime-faint: rgba(138, 212, 61, 0.24);
+$lime-hint: rgba(138, 212, 61, 0.20);
+$ghost-white: rgba(255, 255, 255, 0.12);
+$fog-white: rgba(255, 255, 255, 0.08);
+$deep-ocean-subtle: rgba(13, 61, 86, 0.06);
+$smoke-black: rgba(0, 0, 0, 0.06);
+$ocean-night: rgba(13, 61, 86, 0.8);
+$crimson-fade: rgba(230, 0, 35, 0.06);
+$sunset-fade: rgba(230, 55, 0, 0.06);
+$sky-blue-faint: rgba(24, 119, 242, 0.06);
+$dusk-black: rgba(0, 0, 0, 0.04);
+$midnight-whisper: rgba(13, 61, 86, 0.04);
+$midnight-blue: rgba(13, 61, 86, 0.60);
+$midnight-haze: rgba(13, 61, 86, 0.05);
+$white-smoke-dense: rgba(255, 255, 255, 0.64);
+$midnight-murmur: rgba(13, 61, 86, 0.08);
+$soft-white: rgba(255, 255, 255, 0.20);
+$white-glow: rgba(255, 255, 255, 0.48);
+$subtle-night: rgba(13, 61, 86, 0.03);
+$vibrant-lime-mist: rgba(138, 212, 61, 0.5);
+$lime-mist: rgba(138, 212, 61, 0.30);
+$lemon-twilight: rgba(212, 214, 0, 0.08);
+$vibrant-lime: rgba(138, 212, 61, 1);
+$deep-ocean-morning: rgba(13, 61, 86, 0.2);
+$transparent-white: rgba(245, 247, 248, 0.00);
+$white: rgba(255, 255, 255, 1);
+$transparent-white-2: rgba(255, 255, 255, 0);
+
+// Color Definitions border
+$border-color_1: #0c3c53 transparent transparent transparent;
+$border-color_2: transparent transparent #0c3c53 transparent;
+$border-color_3: transparent transparent rgba(0, 0, 0, 0.1) transparent;

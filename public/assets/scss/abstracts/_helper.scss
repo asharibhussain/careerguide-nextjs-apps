@@ -1,0 +1,29 @@
+@use "./fonts";
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  color: #0D3D56;
+}
+section {
+  overflow: hidden;
+}
+a {
+  color: #0D3D56;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8AD43D;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Inter-Bold, sans-serif;
+}

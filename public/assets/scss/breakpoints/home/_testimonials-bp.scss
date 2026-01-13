@@ -1,0 +1,197 @@
+@import '../../abstracts/typography';
+@import '../../abstracts/fonts';
+@import '../../abstracts/colors';
+@media (max-width: 1310px) {
+    .testimonials {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+    }
+}
+
+@media (min-width: 767.5px) and (max-width: 991.5px) {
+    /* Testimonial start */
+    .testimonials {
+    .testimonials_container {
+        padding: 45px;
+        
+        .background_image {
+        margin-left: -30px;
+        margin-top: -25px;
+        
+        img {
+            width: 258px;
+        }
+        }
+        
+        .main_card {
+        .card_1 {
+            .img_block_testimonial {
+            img {
+                max-width: 231px;
+            }
+            }
+        }
+        
+        .card_2 {
+            .detail_testimonials {
+            padding: 20px;
+            
+            p {
+                font-size: $font-size-18;
+                line-height:$leading--8;
+                margin-bottom: 10px;
+            }
+            
+            hr {
+                margin-bottom: 10px;
+            }
+            
+            a span {
+                font-size: $font-size-15;
+            }
+            }
+        }
+        }
+    }
+    }
+    /* Testimonial End */
+}
+
+@media (max-width: 991px) {
+    .testimonials {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    
+    .my_slider_testimonial {
+        .slick-prev {
+        left: 16px;
+        
+        &:before {
+            height: 32px;
+            width: 32px;
+        }
+        }
+        
+        .slick-next {
+        right: 30px;
+        
+        &:before {
+            height: 32px;
+            width: 32px;
+        }
+        }
+    }
+    
+    .testimonials_container {
+        .main_card {
+        .card_1 {
+            .bg_top_img {
+            .sub_4 {
+                max-width: 70px;
+            }
+            
+            .quotes_1 {
+                max-width: 30px;
+                top: 6px;
+            }
+            }
+        }
+        
+        .card_2 {
+            .detail_testimonials {
+            .quotes_2 {
+                max-width: 24px;
+            }
+            }
+        }
+        }
+    }
+    }
+}
+
+@media (max-width: 767px) {
+    .testimonials {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+    
+    .testimonials_container {
+        padding: 29px 12px 29px !important;
+        
+        .background_image {
+        margin-left: -24px !important;
+        margin-top: -28px !important;
+        }
+        
+        .img_block_testimonial img {
+        max-width: 214px !important;
+        height: 200px !important;
+        }
+        
+        .main_card {
+        border: none !important;
+        
+        .card_1 {
+            .sub_img_5 {
+            margin-top: -51px !important;
+            }
+        }
+        
+        .card_2 {
+            background-image: url(../img/testimonials/bg_border.png) !important;
+            background-size: 100% 100% !important;
+            margin-top: 15px;
+            padding-bottom: 30px !important;
+            
+            .sub_img_1 img {
+            display: none;
+            }
+            
+            .detail_testimonials {
+            padding: 12px !important;
+            
+            p {
+                margin-top: 5px !important;
+                font-size: $font-size-16 !important;
+                line-height: $leading--10 !important;
+                margin-bottom: 0px !important;
+            }
+            
+            a span {
+                font-size: $font-size-14 !important;
+            }
+            
+            hr {
+                margin-bottom: 10px !important;
+                border: 1px solid $lime-splash !important;
+            }
+            }
+        }
+        }
+    }
+    
+    .my_slider_testimonial {
+        .slick-prev {
+        left: 12px;
+        top: 30%;
+        }
+        
+        .slick-next {
+        display: none !important;
+        }
+    }
+    }
+}
+
+@media (max-width: 430px) {
+    .testimonials {
+        .testimonials_container {
+            .main_card {
+                .card_1 {
+                    .img_block_testimonial {
+                        margin-top: 0px!important;
+                    }
+                }
+            }
+        }
+        }
+}

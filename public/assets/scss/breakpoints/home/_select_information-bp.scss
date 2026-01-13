@@ -1,0 +1,49 @@
+@import '../../abstracts/fonts';
+@import '../../abstracts/typography';
+@media (max-width: 991px) {
+	.select_information {
+		.select_information_container {
+			.select_information_card {
+				.card-body {
+					.select-selected {
+						font-size: $font-size-12 !important;
+						line-height: $leading--8 !important;
+						letter-spacing: -0.45px !important;
+					}
+					select {
+						&:focus {
+							font-size: $font-size-18;
+						}
+					}
+				}
+				padding: 5px !important;
+			}
+			.select_information_heading_row {
+				h2 {
+					font-size: $font-size-36 !important;
+					line-height: $leading--13 !important;
+					letter-spacing: -1.08px !important;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.select_information {
+		.select_information_container {
+			.select_information_card {
+				.card-body {
+					padding: 10px !important;
+				}
+			}
+			.select_information_heading_row {
+				h2 {
+					font-size: $font-size-24 !important;
+					line-height: $leading--6 !important;
+					letter-spacing: -0.72px;
+				}
+			}
+		}
+		padding: 40px 15px !important;
+	}
+}

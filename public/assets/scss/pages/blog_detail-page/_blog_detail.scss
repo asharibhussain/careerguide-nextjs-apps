@@ -1,0 +1,296 @@
+@import '../../abstracts/typography';
+@import '../../abstracts/fonts';
+@import '../../abstracts/colors';
+.banner_blog_detail {
+	.blog_detail_bg_img {
+		max-width: 1440px;
+		background-image: url(../img/blog_detail/banner_img.png);
+		background-size: 100% 100%;
+		padding: 84px 20px;
+		margin-bottom: 70px;
+		.business_para {
+			color: $vibrant-lime-green;
+			font-family: $font-family_2; 
+			font-size: $font-size-16;
+			line-height: $leading--8;
+		}
+		h1 {
+			color: $pure-white;
+			font-family: $font-family_1;
+			text-align: center;
+			font-size: $font-size-64;
+			line-height: $leading--2;
+			letter-spacing: -2.56px;
+		}
+		h5 {
+			color: $pure-white;
+			font-family: $font-family_2;/*hussain*/
+			font-size: $font-size-24;
+			line-height: $leading--4;
+		}
+		.row_detail {
+			.detail_profile {
+				h6 {
+					color: $pure-white;
+					font-family: $font-family_2;/*hussain*/
+					font-size: $font-size-20;
+					line-height: $leading--12;
+					text-transform: capitalize;
+					margin-bottom: 0;
+				}
+				p {
+					color: $white-smoke-dense;
+					font-family: $font-family_2;/*hussain*/
+					font-size: $font-size-16;
+					line-height: $leading--8;
+					text-transform: capitalize;
+					margin-bottom: 0;
+				}
+			}
+			.social-links {
+				.hover_links {
+					transition: 0.5s;
+					&:hover {
+						transform: translateY(-5px);
+					}
+				}
+			}
+		}
+	}
+}
+.main_blog_detail_page {
+	.blog_all_detail {
+		.refine_search_card {
+			border-radius: 24px;
+			background: $subtle-night;
+			border: none;
+			.card-header {
+				background-color: $pure-white;
+				border-radius: 24px;
+				padding: 24px 30px;
+				border: 1px solid $midnight-murmur;
+				h3 {
+					color: $deep-ocean-blue;
+					font-family: $font-family_2;/*hussain*/
+					font-size: $font-size-28;
+					line-height: $leading--29;
+					letter-spacing: -0.84px;
+					text-transform: capitalize;
+				}
+			}
+			.card-body {
+				ul {
+					li {
+						padding: 18px 0;
+						a {
+							color: $ocean-blue;
+							font-family: $font-family_2;/*hussain*/
+							font-size: $font-size-20;
+							line-height: $leading--5;
+							letter-spacing: -0.4px;
+							cursor: pointer;
+							&:hover {
+								color: $deep-ocean-blue;
+								font-family: $font-family_1;
+							}
+						}
+					}
+				}
+			}
+		}
+		padding-top: 70px;
+		padding-bottom: 70px;
+		overflow: unset;
+		.accordion-button {
+			font-family: $font-family_6;
+			border: 1px solid $deep-ocean-semi-translucent;
+			color: $ocean-deep;
+			&:focus {
+				border: #8AD43D 2px solid;
+				box-shadow: none;
+			}
+			&:not(.collapsed) {
+				font-family: $font-family_3;
+				color: $deep-ocean-blue;
+				font-size: $font-size-28;
+				background-color: $pure-white;
+			}
+		}
+		.accordion-collapse {
+			.accordion-body {
+				ul {
+					li {
+						color: $deep-ocean-blue;
+						font-family: $font-family_2;/*hussain*/
+						padding: 18px 25px;
+						font-size: $font-size-20;
+						line-height: $leading--5;
+						letter-spacing: -0.4px;
+					}
+				}
+			}
+		}
+		.first_blog_detail {
+			padding-bottom: 40px;
+			h2 {
+				color: $deep-ocean-blue;
+				font-family: $font-family_2;/*hussain*/
+				font-size: $font-size-48;
+				line-height: $leading--33;
+				letter-spacing: -1.44px;
+				text-transform: capitalize;
+				margin-bottom: 32px;
+			}
+			h3 {
+				color: $deep-ocean-blue;
+				font-family: $font-family_2;/*hussain*/
+				font-size: $font-size-32;
+				font-style: normal;
+				font-weight: $weight--500;
+				line-height: $leading--4;
+				margin-bottom: 20px;
+			}
+			p {
+				color: $deep-ocean-blue;
+				font-family: $font-family_2;/*hussain*/
+				font-size: $font-size-20;
+				line-height: $leading--6;
+				text-transform: capitalize;
+				margin-bottom: 40px;
+			}
+			.detail_img {
+				img {
+					width: 100%;
+					margin: 20px 0;
+				}
+				p {
+					color: $midnight-blue !important;
+					text-align: center;
+					font-family: $font-family_6;
+					font-size: 16px;
+					line-height: $leading--26;
+				}
+				.card {
+					border-radius: 12px;
+					border: none;
+					background: $light-green;
+					.card-body {
+						padding: 32px;
+						h5 {
+							color: $deep-ocean-blue;
+							font-family: $font-family_2;/*hussain*/
+							font-size: $font-size-24;
+							margin-bottom: 16px;
+							line-height: $leading--4;
+						}
+						p {
+							span {
+								color: $deep-ocean-blue;
+							}
+						}
+					}
+				}
+			}
+			.quates_img {
+				img {
+					width: 40px;
+				}
+			}
+			.detail_list {
+				li {
+					color: $deep-ocean-blue;
+				}
+			}
+			.row_detail {
+				border-radius: 12px;
+				border: 1px solid #FFF;
+				background: $midnight-haze;
+				padding: 18px 24px;
+				.detail_profile {
+					h6 {
+						color: $deep-ocean-blue;
+						font-family: $font-family_2;/*hussain*/
+						font-size: 20px;
+						line-height: $leading--12;
+						text-transform: capitalize;
+						margin-bottom: 0;
+					}
+					p {
+						color: $ocean-blue-deep;
+						font-family: $font-family_2;/*hussain*/
+						font-size: 16px;
+						line-height: $leading--8;
+						text-transform: capitalize;
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+	.read_more_article {
+		.article_heading {
+			color: $deep-ocean-blue;
+			font-family: $font-family_2;/*hussain*/
+			font-size: 64px;
+			line-height: $leading--2;
+			letter-spacing: -1.92px;
+			text-transform: capitalize;
+			margin-bottom: 64px;
+		}
+		.articale_img {
+			padding-bottom: 16px;
+			img {
+				width: 100%;
+				border-radius: 20px;
+			}
+		}
+		.articale_detail {
+			padding-top: 16px;
+			padding-bottom: 24px;
+			p {
+				color: $deep-ocean-blue;
+				font-size: 16px;
+				font-family: $font-family_2;/*hussain*/
+				line-height: $leading--8;
+				a {
+					text-decoration: underline !important;
+				}
+			}
+			h2 {
+				color: $deep-ocean-blue;
+				font-family: $font-family_2;/*hussain*/
+				font-size: 38px;
+				line-height: $leading--9;
+				letter-spacing: -1.2px;
+				text-transform: capitalize;
+			}
+			h4 {
+				color: $deep-ocean-blue;
+				font-family: $font-family_2;/*hussain*/
+				font-size: 24px;
+				line-height: $leading--4;
+				letter-spacing: -0.24px;
+				text-transform: capitalize;
+			}
+		}
+		.articale_profile {
+			h6 {
+				color: $deep-ocean-blue;
+				font-family: $font-family_2;/*hussain*/
+				font-size: 20px;
+				line-height: $leading--12;
+				text-transform: capitalize;
+				margin-bottom: 0;
+			}
+			p {
+				color: $midnight-blue;
+				font-family: $font-family_2; /*hussain*/
+				font-size: 16px;
+				line-height: $leading--8;
+				text-transform: capitalize;
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+@import '../../breakpoints/_blog_detail-bp/blog_detail-bp';

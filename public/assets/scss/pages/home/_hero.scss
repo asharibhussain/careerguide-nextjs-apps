@@ -1,0 +1,339 @@
+@import '../../abstracts/fonts';
+@import '../../abstracts/colors';
+@import '../../abstracts/typography';
+
+.international_companies {
+    .international_companies_container {
+    max-width: 1440px;
+
+    .block_images {
+        margin-top: 20px;
+
+        h5 {
+        color: $deep-ocean-blue;
+        font-family: Inter-SemiBold, sans-serif;
+        font-size: $font-size-24;
+        line-height: $leading--4; /* 133.333% */
+        letter-spacing: -0.72px;
+        }
+
+        .left_blocks img,
+        .right_blocks img {
+        margin-top: -50px;
+        }
+    }
+
+    .faqs_card {
+        margin-top: -105px;
+
+        .card {
+        margin-left: auto;
+        margin-right: auto;
+        width: 87.50%;
+        background: rgba(13, 61, 86, 0.03);
+        border-radius: 25px;
+        border: none;
+
+        .card-body {
+            padding: 40px;
+
+            .custom-select {
+            position: relative;
+            width: 100%;
+
+            select {
+                display: none;
+            }
+
+            .select-arrow-active {
+                border: 1px solid #8AD43D;
+            }
+
+            .select-hide {
+                display: none;
+            }
+
+            .select-items {
+                background-color: $pure-white;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                border-radius: 8px;
+                z-index: 99;
+                box-shadow: 0px 0px 0px 2px $deep-ocean-semi-translucent;
+                display: none;
+            }
+
+            .select-selected {
+                color: $ocean-deep;
+                font-family: Inter-Medium, sans-serif;
+                padding: 16px;
+                font-size: $font-size-16;
+                border: 1px solid $deep-ocean-semi-translucent;
+                line-height:$leading--5;
+                background: $pure-white;
+                letter-spacing: -0.4px;
+                margin: 0;
+                border-radius: 8px;
+
+                &:after {
+                position: absolute;
+                content: "";
+                top: 27px;
+                right: 20px;
+                width: 0;
+                height: 0;
+                border: 6px solid transparent;
+                border-color: $dark-ocean-blue transparent transparent transparent;
+                }
+
+                &.select-arrow-active:after {
+                border-color: transparent transparent $dark-ocean-blue transparent;
+                top: 22px;
+                }
+            }
+            }
+        }
+        }
+
+        .show_all {
+        display: contents;
+        background: transparent;
+
+        .show_all_button {
+            width: 100%;
+            background: $vibrant-lime-green;
+            height: 50px;
+            border: $vibrant-lime-green 1px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 32px;
+            font-size: $font-size-16;
+            color: $dark-ocean-blue;
+            border-radius: 58px;
+            transition: 0.4s;
+            font-family: Inter-bold, sans-serif;
+
+            &:hover {
+            background: $pure-white;
+            border: $deep-ocean-blue 1px solid;
+            color: $deep-ocean-blue;
+            }
+        }
+        }
+    }
+
+    .heading_divider {
+        h1 {
+        color: $deep-ocean-blue;
+        text-align: center;
+        font-family: Inter-SemiBold, sans-serif;
+        font-size: $font-size-64;
+        line-height:$leading--2; /* 106.25% */
+        letter-spacing: -2.56px;
+        }
+
+        .studies_divider {
+        display: inline-grid;
+        line-height: $leading--3;
+
+        img {
+            max-width: 215px;
+            margin: auto;
+        }
+        }
+    }
+        .block_images {
+            h5 {
+            color: $deep-ocean-blue;
+            font-family: Inter-SemiBold, sans-serif;
+            font-size: $font-size-24;
+            line-height: $leading--4; /* 133.333% */
+            letter-spacing: -0.72px;
+            text-transform: capitalize;
+            }
+            
+            .left_blocks img,
+            .right_blocks img {
+            margin-top: -50px;
+            }
+    
+            & {
+            margin-top: 20px;
+            }
+        }
+        
+        .faqs_card {
+            margin-top: -105px;
+    
+            .card {
+            margin-left: auto;
+            margin-right: auto;
+            width: 87.50%;
+            background: rgba(13, 61, 86, 0.03);
+            border-radius: 25px;
+            border: none;
+    
+            .card-body {
+                padding: 40px;
+    
+                .custom-select select {
+                display: none; /* Hide original SELECT element */
+                }
+    
+                .select-selected {
+                color: $deep-ocean-translucent;
+                font-family: Inter-Medium, sans-serif;
+                padding: 16px;
+                font-size: $font-size-16;
+                border: 1px solid $deep-ocean-semi-translucent;
+                line-height: $leading--5;
+                background:$pure-white;
+                letter-spacing: -0.4px;
+                margin: 0;
+                border-radius: 8px;
+                position: relative;
+    
+                &:after {
+                    position: absolute; 
+                    content: "";
+                    top: 27px;
+                    right: 20px;
+                    width: 0;
+                    height: 0;
+                    border: 6px solid transparent;
+                    border-color: $dark-ocean-blue transparent transparent transparent;
+                }
+    
+                &.select-arrow-active:after {
+                    border-color: transparent transparent $dark-ocean-blue transparent;
+                    top: 22px;
+                }
+                }
+    
+                .custom-select select:focus {
+                border: $vibrant-lime-green 2px solid;
+                box-shadow: none;
+                font-family: Inter-bold, sans-serif;
+                color: $deep-ocean-blue;
+                background: $pure-white;
+                }
+    
+                .custom-select .select-arrow-active {
+                border: 1px solid $vibrant-lime-green;
+                }
+    
+                /* Style the arrow inside the select element */
+                &.select-selected:after {
+                position: absolute;
+                content: "";
+                top: 27px;
+                right: 20px;
+                width: 0;
+                height: 0;
+                border: 6px solid transparent;
+                border-color: $dark-ocean-blue transparent transparent transparent;
+                }
+    
+                /* Point the arrow upwards when the select box is open (active) */
+                &.select-selected.select-arrow-active:after {
+                border-color: transparent transparent $dark-ocean-blue transparent;
+                top: 22px;
+                }
+    
+                /* Style the items (options), including the selected item */
+                .select-items div,
+                .select-selected {
+                color: $dark-ocean-blue;
+                padding: 15px 0px;
+                border: 1px solid transparent;
+                border-color: transparent transparent $soft-black transparent;
+                cursor: pointer;
+                user-select: none;
+                margin: 0 15px;
+                }
+    
+                /* Style items (options) */
+                .select-items {
+                background-color: $pure-white;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                border-radius: 8px;
+                z-index: 99;
+                box-shadow: 0px 0px 0px 2px $deep-ocean-semi-translucent;
+                }
+    
+                /* Hide the items when the select box is closed */
+                &.select-hide {
+                display: none;
+                }
+    
+                .select-items div:hover, .same-as-selected {
+                color: $vibrant-lime-green;
+                }
+    
+                .select-items div:last-child {
+                border: none;
+                }
+            }
+            .accordion-{
+                .card-body select:not(.collapsed) {
+                    font-family: Inter-bold, sans-serif;
+                    color: $deep-ocean-blue;
+                    background-color: $pure-white;
+                }
+            }
+    
+            .show_all {
+                display: contents;
+                background: transparent;
+    
+                .show_all_button {
+                width: 100%;
+                background: $vibrant-lime-green;
+                height: 50px;
+                border: $vibrant-lime-green 1px solid;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 16px 32px;
+                font-size: $font-size-16;
+                color: $dark-ocean-blue;
+                border-radius: 58px;
+                transition: 0.4s;
+                font-family: Inter-bold, sans-serif;
+    
+                &:hover {
+                    background: $pure-white;
+                    border: $deep-ocean-blue 1px solid;
+                    color: $deep-ocean-blue;
+                }
+                }
+            }
+            }
+    
+            .accordion-button {
+            font-family: Inter-Regular, sans-serif;
+            border: 1px solid $deep-ocean-semi-translucent;
+            color: $ocean-deep;
+            }
+    
+            .accordion-body ul li {
+            color: $deep-ocean-blue;
+            font-family: Inter-Medium, sans-serif;
+            padding: 18px 25px;
+            font-size: $font-size-20;
+            line-height: $leading--5;
+            letter-spacing: -0.4px;
+            }
+
+    
+    }
+}
+}
+
+@import '../../breakpoints/home/hero_bp';

@@ -1,0 +1,69 @@
+//=======================================
+// Do not change the order of those files
+//=======================================
+
+// ABSTRACT
+@import "abstracts/family";
+@import "abstracts/helper";
+
+// COMPONENTS
+@import "components/preloader";
+@import "components/back-to-top";
+
+
+
+// LAYOUT
+@import "layout/header";
+@import "layout/footer";
+
+
+
+// PAGES
+
+// home start here 
+@import './pages/home/_hero.scss';
+@import './pages/home/partner';
+@import './pages/home/testimonials';
+@import './pages/home/dual_course';
+@import './pages/home/get_more_info';
+@import './pages/home/popular_employers';
+@import './pages/home/select_information';
+
+// Ending here home page 
+
+// start here is the 404 page are not found
+@import './pages/404-page/page-not-found';
+// Ending here 404 page page are not fiund 
+
+// Starting here is the empty page link
+@import './pages/empty-page/empty';
+// Ending empty page 
+
+// Starting here is the application page 
+@import './pages/application/application';
+// Ending here is the application page 
+
+// Staring here is the blog_detail page 
+@import './pages/blog_detail-page/blog_detail';
+// Ending here is the blog_detail page 
+
+// Staring here is the blog page 
+@import './pages/blog-page/blog';
+// Ending here is the blog page 
+
+// Strating here is the company page 
+@import './pages/company-page/company';
+@import './pages/company-page/main-company-page';
+// Ending here is the company page 
+
+// Strating here is the custom page
+@import './pages/custom-page/custom'; 
+// Ending here is the custom page 
+
+// starting here is the seacher 
+@import './pages/search-page/search';
+// Ending here is the seacher page 
+
+// starting here is the videos
+@import './pages/videos-page/videos';
+// Ending here is the videos page 

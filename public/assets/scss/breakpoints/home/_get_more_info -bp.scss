@@ -1,0 +1,131 @@
+@import '../../abstracts/fonts';
+@import '../../abstracts/typography';
+@media (min-width: 992.5px) and (max-width: 1200px) {
+	.get_more_info {
+		.get_more_info_container {
+			.img_bg_shapes_1 {
+				.img_2 {
+					.mask {
+						img {
+							height: 350px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	.get_more_info {
+		.get_more_info_container {
+			.img_bg_shapes_1 {
+				margin-left: 17px !important;
+				padding-right: 24px !important;
+				margin-top: 28px !important;
+				.img_2 {
+					margin-top: 40px !important;
+				}
+			}
+			.img_bg_shapes_2 {
+				margin-left: 17px !important;
+				margin-top: 0px !important;
+			}
+			.get_more_detail {
+				padding: 20px 20px 0 !important;
+				p {
+					font-size: $font-size-13 !important;
+					line-height: $leading--16 !important;
+					letter-spacing: -0.13px !important;
+				}
+				.get_more_info_button {
+					font-size: $font-size-14 !important;
+				}
+			}
+			h2 {
+				font-size: $font-size-40 !important;
+				line-height: $leading--15 !important;
+				letter-spacing: -1.6px !important;
+			}
+		}
+		padding: 50px 40px !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.get_more_info {
+		.get_more_info_container {
+			.get_more_detail {
+				p {
+					P {
+						font-size: $font-size-12;
+						font-style: normal;
+						font-weight: $weight--400;
+						line-height: $leading--18;
+						letter-spacing: -0.12px;
+					}
+				}
+			}
+			h2 {
+				font-size: $font-size-24 !important;
+				line-height: $leading--6 !important;
+				letter-spacing: -0.13px !important;
+			}
+			.img_bg_shapes_1 {
+				margin-top: 55px !important;
+			}
+		}
+		padding: 40px 20px !important;
+	}
+}
+
+@media (min-width: 767.5px) and (max-width: 991.5px) {
+	.get_more_info {
+		.get_more_info_container {
+			.img_bg_shapes_1 {
+				.img_2 {
+					.mask {
+						img {
+							height: 400px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 430px) {
+	.get_more_info {
+		.get_more_info_container {
+			.get_more_detail {
+				padding: 10px !important;
+			}
+			.img_bg_shapes_1 {
+				.img_2 {
+					.mask {
+						img {
+							height: 355px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 360px) {
+	.get_more_info {
+		.get_more_info_container {
+			.img_bg_shapes_1 {
+				.img_2 {
+					.mask {
+						img {
+							height: 315px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

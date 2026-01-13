@@ -1,0 +1,153 @@
+@import '../../abstracts/colors';
+@import '../../abstracts/typography';
+@import '../../abstracts/fonts';
+.testimonials {
+    background-color: $ocean-deepest;
+    border-radius: 24px;
+    max-width: 1280px;
+    margin: 70px auto;
+    
+    .testimonials_container { 
+      padding: 82px 70px 88px 70px;
+      overflow: hidden;
+      position: relative;
+      
+      img {
+        display: inline;
+      }
+      
+      .background_image {
+        margin-left: -52px;
+        margin-top: -52px;
+        position: absolute;
+      }
+      
+      .main_card {
+        position: relative;
+        border-radius: 20px;
+        border-top: 1px solid $light-lime;
+        border-bottom: 1px solid $light-lime;
+        border-right: 1px solid $light-lime;
+        
+        .card_1 {
+          background: -webkit-linear-gradient($white, $vibrant-lime);
+          border: none;
+          border-radius: 20px;
+          width: 100%;
+          position: relative;
+          
+          .bg_top_img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: -1px;
+            
+            .quotes_1 {
+              position: absolute;
+              left: 15px;
+            }
+          }
+          
+          .img_block_testimonial {
+            padding-top: 31px;
+          }
+          
+          .sub_img_5 {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+          }
+        }
+        
+        .card_2 {
+          background: transparent;
+          width: 100%;
+          border: none;
+          position: relative;
+          
+          .sub_img_1 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            
+            img {
+              border-radius: 0 18px 0 0;
+            }
+          }
+          
+          .detail_testimonials {
+            padding: 31px 56px 0;
+            
+            p {
+              margin-top: 15px;
+              font-size: $font-size-26;
+              color: $pure-white;
+              font-family: Inter-Medium, sans-serif;
+              line-height:$leading--4;
+              margin-bottom: 32px;
+              overflow: hidden;
+              width: 100%;
+              display: -webkit-box;
+              -webkit-line-clamp: 4;
+              -webkit-box-orient: vertical;
+            }
+            
+            hr {
+              border: $lime-faint 1px solid;
+              width: 100%;
+              margin-bottom: 20px;
+              background: $lime-faint;
+            }
+            
+            p span {
+              color: $vibrant-lime-green!important;
+            }
+            
+            a span {
+              color: $pure-white;
+              font-family: Inter-Medium, sans-serif;
+              font-size: $font-size-20;
+              
+              &:hover {
+                color: $vibrant-lime-green;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    .my_slider_testimonial {
+      .slick-prev {
+        left: 38px;
+        
+        &:before {
+          background-image: url(../img/left_arrow.png);
+          background-size: 100% 100%;
+          height: 60px;
+          width: 60px;
+          display: block;
+          content: '';
+          position: relative;
+          z-index: 99;
+          opacity: 1;
+        }
+      }
+      
+      .slick-next {
+        right: 77px;
+        
+        &:before {
+          background-image: url(../img/right_arrow.png);
+          background-size: 100% 100%;
+          height: 60px;
+          width: 60px;
+          display: block;
+          content: '';
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  @import '../../breakpoints/home/testimonials-bp';

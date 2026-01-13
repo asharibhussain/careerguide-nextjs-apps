@@ -1,0 +1,49 @@
+{
+  "name": "careerguide-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build-css": "sass --watch public/assets/scss/custom.scss public/assets/css/custom.css",
+    "clear-cache": "rm -rf .next/cache"
+    
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "glightbox": "^3.3.0",
+    "jquery": "^3.7.1",
+    "jquery-ui": "^1.13.3",
+    "next": "^14.2.3",
+    "package_name": "^1.0.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.2.3",
+    "react-id-swiper": "^4.0.0",
+    "react-redux": "^9.1.2",
+    "react-slick": "^0.30.2",
+    "redux": "^5.0.1",
+    "slick": "^1.12.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.11",
+    "swiper": "^11.1.4",
+    "ws": "^8.17.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.30",
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18",
+    "@types/react-slick": "^0.23.13",
+    "@types/slick-carousel": "^1.6.40",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "sass": "^1.77.2",
+    "typescript": "^5.4.5"
+  }
+}

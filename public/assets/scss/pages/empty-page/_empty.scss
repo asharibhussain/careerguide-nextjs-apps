@@ -1,0 +1,32 @@
+@import '../../abstracts/fonts';
+@import '../../abstracts/colors';
+@import '../../abstracts/typography';
+
+.footer-sticky {
+	background: $ocean-deepest;
+	padding: 20px 48px;
+	.container {
+		max-width: 900px;
+		color: $white;
+		p {
+			font-family: $font-family_6;
+			font-size: $font-size-16;
+			line-height: $leading--5;
+			letter-spacing: -0.02em;
+			padding-right: 30px;
+			a {
+				color: $vibrant-lime;
+				text-decoration: underline;
+			}
+		}
+		.btn-close-btn {
+			font-family: $font-family_3;
+			padding: 16px 32px 16px 32px;
+			gap: 8px;
+			border-radius: 100px;
+			font-size: $font-size-16;
+			background-color: $white;
+			color: $ocean-deepest;
+		}
+	}
+}

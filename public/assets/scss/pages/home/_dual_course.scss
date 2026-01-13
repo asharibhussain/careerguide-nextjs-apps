@@ -1,0 +1,268 @@
+@import '../../abstracts/colors';
+@import '../../abstracts/fonts';
+@import '../../abstracts/typography';
+
+.dual_course {
+	.dual_course_container {
+		padding-top: 70px;
+		padding-bottom: 70px;
+		h1 {
+			font-family: $font-family_1;
+			font-size: $font-size-60;
+			line-height: $leading--25;
+			letter-spacing: -2.4px;
+		}
+		.column_one {
+			border: 1px solid $deep-ocean-morning;
+			border-right: none;
+			border-radius: 15px 0 0 15px;
+			&:hover {
+				border-radius: 15px 0 0 15px;
+				background: -webkit-linear-gradient( $custom-green, $custom-green-transparent);
+				.dual_button {
+					color: $deep-ocean-blue;
+					background: $pure-white;
+				}
+			}
+		}
+		.column_two {
+			border: 1px solid $deep-ocean-morning;
+			border-right: none;
+			border-left: none;
+			&:hover {
+				background: -webkit-linear-gradient( $custom-green, $custom-green-transparent);
+				.dual_button {
+					color:$deep-ocean-blue;
+					background: $pure-white;
+				}
+			}
+		}
+		.column_three {
+			border: 1px solid $deep-ocean-morning;
+			border-left: none;
+			border-radius: 0 15px 15px 0;
+			&:hover {
+				border-radius: 0 15px 15px 0;
+				background: -webkit-linear-gradient( $custom-green, $custom-green-transparent);
+				.dual_button {
+					color: $deep-ocean-blue;
+					background: $pure-white;
+				}
+			}
+		}
+		.block_apply_now {
+			padding: 34px;
+			height: 100%;
+			transition: 0.4s;
+			.block_icons {
+				display: inline-flex;
+				margin-bottom: 20px;
+				border: 1px solid $custom-green-transparent;
+				border-radius: 50%;
+				padding: 12px 12px;
+			}
+			h5 {
+				font-size: $font-size-26;
+			}
+			p {
+				font-size: $font-size-16;
+				font-family: $font-family_2;
+			}
+			.dual_button {
+				padding: 16px 20px;
+				background-color: $pale-lime-yellow;
+				border-radius: 50px;
+				color:$deep-ocean-blue;
+				font-size: $font-size-16;
+				border: 1px solid $DarkBlueTransparent;
+				font-family: $font-family_3;
+				transition: 0.4s;
+				display: inline-flex;
+				align-items: center;
+				&:focus {
+					padding: 16px 20px;
+					background-color: $pale-lime-yellow;
+					border-radius: 50px;
+					color: $deep-ocean-blue;
+					font-size: $font-size-16;
+					border: 1px solid $DarkBlueTransparent;
+					font-family: $font-family_3;
+					transition: 0.4s;
+					display: inline-flex;
+					align-items: center;
+				}
+				&:hover {
+					background-color: $vibrant-lime-green;
+					border: 1px solid $DarkBlueTransparent;
+				}
+			}
+		}
+	}
+	.apply_now_container {
+		h1 {
+			font-family: $font-family_1;
+			font-size:$font-size-60;
+			line-height:$leading--25;
+			letter-spacing: -2.4px;
+		}
+		padding-top: 70px;
+		padding-bottom: 70px;
+		hr {
+			margin: 40px 0;
+		}
+		.card_shape_1 {
+			background-image: url(../img/apply/shape_1.png);
+			background-size: 100% 100%;
+			padding: 40px;
+			h5 {
+				font-size: $font-size-40;
+				line-height: $leading--9;
+				font-family: $font-family_4;
+				color: $deep-ocean-blue;
+				padding-right: 10px;
+			}
+			p {
+				color:$deep-ocean-blue;
+				font-family: $font-family_2;
+				font-size: $font-size-18;
+				line-height: $leading--8;
+				letter-spacing: -0.54px;
+			}
+			.dual_button {
+				padding: 16px 20px;
+				align-items: center;
+				display: inline-table;
+				border-radius: 100px;
+				background: $pale-lime-yellow;
+				color: $deep-ocean-blue;
+				font-family: $font-family_5;
+				font-size: $font-size-16;
+				line-height: normal;
+				display: inline-flex;
+				align-items: center;
+				transition: 0.4s;
+				&:hover {
+					background: $vibrant-lime-green;
+				}
+			}
+		}
+		.card_shape_2 {
+			.dual_button {
+				padding: 16px 20px;
+				align-items: center;
+				display: inline-table;
+				border-radius: 100px;
+				background: $pale-lime-yellow;
+				color:$deep-ocean-blue;
+				font-family: $font-family_5;
+				font-size:$font-size-16;
+				line-height: $leading--n;
+				display: inline-flex;
+				align-items: center;
+				transition: 0.4s;
+				&:hover {
+					background: $vibrant-lime-green;
+				}
+			}
+			background-image: url(../img/apply/shape_2.png);
+			background-size: 100% 100%;
+			padding: 40px;
+			margin-left: -10%;
+			h5 {
+				font-size: $font-size-40;
+				line-height: $leading--9;
+				font-family: $font-family_4;
+				color: $deep-ocean-blue;
+				padding-right: 10px;
+			}
+			p {
+				color: $deep-ocean-blue;
+				font-family: $font-family_2;
+				font-size: $font-size-18;
+				line-height: $leading--8;
+				letter-spacing: -0.54px;
+			}
+		}
+		.card_shape_3 {
+			.dual_button {
+				padding: 16px 20px;
+				align-items: center;
+				display: inline-table;
+				border-radius: 100px;
+				background: $pale-lime-yellow;
+				color:$deep-ocean-blue ;
+				font-family: $font-family_5;
+				font-size: $font-size-16;
+				line-height: normal;
+				display: inline-flex;
+				align-items: center;
+				transition: 0.4s;
+				&:hover {
+					background: $vibrant-lime-green;
+				}
+			}
+			background-image: url(../img/apply/shape_3.png);
+			background-size: 100% 100%;
+			padding: 40px;
+			h5 {
+				font-size: $font-size-40;
+				line-height: $leading--9;
+				font-family: $font-family_4;
+				color: $deep-ocean-blue;
+				padding-right: 10px;
+			}
+			p {
+				color: $deep-ocean-blue;
+				font-family: $font-family_2;
+				font-size: $font-size-18;
+				line-height: $leading--8;
+				letter-spacing: -0.54px;
+			}
+		}
+		.card_shape_4 {
+			.dual_button {
+				padding: 16px 20px;
+				display: inline-flex;
+				align-items: center;
+				border-radius: 100px;
+				background: $vibrant-lime-green;
+				color: $deep-ocean-blue;
+				font-family: $font-family_5;
+				font-size: 16px;
+				line-height:$leading--n;
+				transition: 0.4s;
+				&:hover {
+					background: $pale-lime-yellow;
+				}
+			}
+			border-radius: 20px;
+			background: $deep-ocean-blue;
+			width: 100%;
+			padding: 40px 40px 0;
+			h5 {
+				font-size: $font-size-40;
+				line-height:$leading--9;
+				font-family: $font-family_4;
+				color: $vibrant-lime-green;
+				padding-right: 10px;
+			}
+			p {
+				color: $pure-white;
+				font-family: $font-family_2;
+				font-size: $font-size-18;
+				line-height:$leading--8;
+				letter-spacing: -0.54px;
+			}
+			hr {
+				background: $teal-deep !important;
+				border: 1px solid $teal-deep;
+				margin-bottom: 0;
+			}
+		}
+		.inner_shape_2 {
+			width: 90%;
+			margin-left: auto;
+		}
+	}
+}
+@import '../../breakpoints/home/dual_course-bp';

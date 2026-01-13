@@ -1,0 +1,238 @@
+@import '../../abstracts/colors';
+@import '../../abstracts/fonts';
+@import '../../abstracts/typography';
+.main_company_page {
+	.companies_logos {
+		.companies_logos_container {
+			.custom-select {
+				position: relative;
+				width: 100%;
+				select {
+					display: none;
+					&:focus {
+						border: $vibrant-lime-green 2px solid;
+						box-shadow: none;
+						font-family: $font-family_5;
+						color: $deep-ocean-blue;
+						background: $pure-white;
+					}
+				}
+				.select-arrow-active {
+					border: 1px solid $vibrant-lime-green;
+				}
+			}
+			.select-selected {
+				color: $ocean-deep;
+				font-family: $font-family_2; /*d*/
+				padding: 16px;
+				font-size: $font-size-16;
+				border: 1px solid $deep-ocean-semi-translucent;
+				line-height: $leading--5;
+				background: $pure-white;
+				letter-spacing: -0.4px;
+				margin: 0;
+				border-radius: 8px;
+				&:after {
+					position: absolute;
+					content: "";
+					top: 27px;
+					right: 20px;
+					width: 0;
+					height: 0;
+					border: 6px solid transparent;
+					border-color: $border-color_1;
+				}
+			}
+			.select-selected.select-arrow-active {
+				&:after {
+					border-color: $border-color_2;
+					top: 22px;
+				}
+			}
+			.select-items {
+				div {
+					color: $dark-ocean-blue;
+					padding: 15px 0px;
+					border: 1px solid transparent;
+					border-color: $border-color_3;
+					cursor: pointer;
+					user-select: none;
+					margin: 0 15px;
+					&:hover {
+						color: $vibrant-lime-green;
+					}
+					&:last-child {
+						border: none;
+					}
+				}
+				background-color: $pure-white;
+				position: absolute;
+				top: 100%;
+				left: 0;
+				right: 0;
+				border-radius: 8px;
+				z-index: 99;
+				box-shadow: 0px 0px 0px 2px $deep-ocean-semi-translucent;
+			}
+			.select-hide {
+				display: none;
+			}
+			.companies_logo_cards {
+				&:hover {
+					transform: translateY(-10px);
+				}
+				border-radius: 20px;
+				width: 100%;
+				border: 1px solid $deep-ocean-semi-translucent;
+				transition: all ease-in-out 0.4s;
+				z-index: 99;
+				.logo_div {
+					border-radius: 12px;
+					border: 1px solid $deep-ocean-lighter;
+					display: flex;
+					width: 100%;
+					height: 133px;
+					padding: 20px 30px;
+					justify-content: center;
+					align-items: center;
+					flex-shrink: 0;
+					margin-bottom: 20px;
+					img {
+						max-width: 240px;
+						width: 100%;
+					}
+					.roll_logo {
+						height: 106px;
+						width: auto;
+					}
+				}
+				h5 {
+					color: $deep-ocean-blue;
+					font-family: $font-family_5;
+					font-size: $font-size-20;
+					line-height: $leading--12;
+					letter-spacing: -0.6px;
+					margin-bottom: 0;
+					text-transform: capitalize;
+				}
+				.logo_button {
+					border-radius: 100px;
+					display: flex;
+					width: 100%;
+					padding: 16px 8px;
+					justify-content: center;
+					align-items: center;
+					gap: 8px;
+					flex-shrink: 0;
+					background: $vibrant-lime-green;
+					color: $deep-ocean-blue;
+					font-family: $font-family_5;
+					font-size: $font-size-16;
+					line-height: $leading--n;
+					transition: 0.4s;
+					&:hover {
+						background: $soft-lime;
+					}
+				}
+			}
+			padding-top: 50px;
+			padding-bottom: 50px;
+			.refine_search_card {
+				border-radius: 24px;
+				background: $deep-ocean-translucent;
+				border: none;
+				.card-header {
+					background-color: $pure-white;
+					border-radius: 24px;
+					padding: 24px 30px;
+					border: 1px solid $midnight-murmur;
+					h3 {
+						color: $deep-ocean-blue;
+						font-family: $font-family_2;/*d*/
+						font-size: $font-size-28;
+						line-height: $leading--29;
+						letter-spacing: -0.84px;
+						margin-bottom: 0;
+						text-transform: capitalize;
+					}
+				}
+				.card-body {
+					.accordion-button {
+						font-family: $font-family_6;
+						border: 1px solid $deep-ocean-semi-translucent;
+						color: $ocean-deep;
+						&:focus {
+							border: $vibrant-lime-green 2px solid;
+							box-shadow: none;
+						}
+						&:not(.collapsed) {
+							font-family: $font-family_5;
+							color: $deep-ocean-blue;
+							font-size: $font-size-20;
+							background-color: $pure-white;
+						}
+					}
+					.accordion-body {
+						ul {
+							li {
+								color: $deep-ocean-blue;
+								font-family: $font-family_2;/*d*/
+								padding: 18px 25px;
+								font-size: $font-size-20;
+								line-height: $leading--5;
+								letter-spacing: -0.4px;
+							}
+						}
+					}
+					label {
+						color: $deep-ocean-blue;
+						font-family: $font-family_2;/*d*/
+						font-size: $font-size-18;
+						line-height: $leading--5;
+						letter-spacing: -0.54px;
+						text-transform: capitalize;
+						margin-bottom: 12px;
+					}
+					.heading_search {
+						h5 {
+							color: $deep-ocean-blue;
+							font-family: $font-family_2;/*d*/
+							font-size: $font-size-24;
+							line-height: $leading--4;
+							letter-spacing: -0.72px;
+							margin-bottom: 24px;
+							text-transform: capitalize;
+						}
+					}
+					.search_result {
+						.search_button {
+							display: flex;
+							width: 100%;
+							height: 56px;
+							padding: 16px 32px;
+							justify-content: center;
+							align-items: center;
+							gap: 8px;
+							flex-shrink: 0;
+							border-radius: 100px;
+							background: $deep-ocean-blue;
+							color: $vibrant-lime-green;
+							font-family: $font-family_5;
+							font-size: $font-size-16;
+							line-height: $leading--n;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.select-selected {
+	color: $dark-ocean-blue;
+	padding: 15px 0px;
+	border: 1px solid transparent;
+	border-color: $border-color_3;
+	cursor: pointer;
+	user-select: none;
+	margin: 0 15px;
+}

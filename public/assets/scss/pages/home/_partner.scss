@@ -1,0 +1,53 @@
+@import '../../abstracts/colors';
+@import '../../abstracts/typography';
+.our_partner {
+    .our_partner_container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    .slick-slide {
+        .inner {
+        margin: 10px 15px;
+
+        img {
+            height: 48px;
+        }
+        }
+    }
+
+    h6 {
+        color: $ocean-blue-deep;
+        font-family: Inter-Regular, sans-serif;
+        font-size:$font-size-18;
+        margin-bottom: 32px;
+
+        span {
+        font-family: Inter-bold, sans-serif;
+        color: $deep-ocean-blue;
+        }
+    }
+
+    img {
+        transition: all 0s ease-in-out;
+        padding-right: 30px;
+        padding-left: 30px;
+        margin: auto;
+
+        &:hover {
+        filter: none;
+        transform: scale(1.1);
+        }
+    }
+
+    .slick-track {
+        display: flex;
+        align-items: center;
+    }
+
+    .partner_6 {
+        height: 48px;
+    }
+    }
+}
+
+@import '../../breakpoints/home/partner-bp';

@@ -1,0 +1,105 @@
+
+
+@import '../../abstracts/colors';
+@import '../../abstracts/fonts';
+@import '../../abstracts/typography';
+.get_more_info {
+	padding-top: 74px;
+	padding-bottom: 74px;
+	.get_more_info_container {
+		border-radius: 24px;
+		background: $deep-ocean-blue;
+		.main_div_bg {
+			margin-right: -1px;
+		}
+		.get_more_detail {
+			padding-right: 70px;
+			padding-left: 70px;
+			padding-top: 80px;
+			p {
+				color: $pure-white;
+				font-family: $font-family_6;
+				font-size: $font-size-16;
+				line-height: $leading--5;
+				letter-spacing: -0.16px;
+				margin-bottom: 20px;
+			}
+			.get_more_info_button {
+				border: 1px solid $deep-ocean-morning;
+				display: inline-flex;
+				align-items: center;
+				padding: 16px 32px 16px 32px;
+				font-size: $font-size-16;
+				border-radius: 100px;
+				background: $vibrant-lime-green;
+				font-family: $font-family_3;
+				transition: 0.4s;
+				&:hover {
+					background: $pure-white;
+					color: $dark-ocean-blue;
+				}
+			}
+		}
+		h2 {
+			color: $pure-white;
+			font-family: $font-family_1;
+			font-size: $font-size-56;
+			line-height: $leading--7;
+			letter-spacing: -2.24px;
+			margin-bottom: 24px;
+		}
+		.get_more_top {
+			text-align: end;
+			margin-right: -2px;
+			margin-top: -3px;
+			z-index: 999;
+			position: relative;
+		}
+		.img_bg_shapes_2 {
+			position: absolute;
+			margin-top: -74px;
+			margin-left: 47px;
+			z-index: 99;
+			img {
+				width: 100%;
+			}
+		}
+		.img_bg_shapes_1 {
+			margin-top: -24px;
+			margin-left: 46px;
+			margin-left: 46px;
+			padding-right: 50px;
+			.img_1 {
+				position: absolute;
+			}
+			.img_2 {
+				z-index: 999;
+				position: relative;
+				padding-top: 41px;
+				width: 100%;
+				.mask {
+					-webkit-mask-image: url(../img/bg_mask.png);
+					mask-image: url(../img/bg_mask.png);
+					-webkit-mask-repeat: no-repeat;
+					mask-repeat: no-repeat;
+					background: -webkit-linear-gradient($pure-white , $custom-green-transparent);
+					display: flex;
+					img {
+						max-width: 424px;
+						max-height: 492px;
+						object-fit: cover;
+					}
+				}
+			}
+		}
+		.shape-bottom {
+			margin-bottom: -2px;
+			margin-left: -13px;
+			img {
+				max-width: 80px;
+			}
+		}
+	}
+}
+
+@import '../../breakpoints/home/get_more_info\ -bp';

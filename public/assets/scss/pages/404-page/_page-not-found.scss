@@ -1,0 +1,52 @@
+@import '../../abstracts/fonts';
+@import '../../abstracts/colors';
+@import '../../abstracts/typography';
+
+
+.page_not_found {
+	padding: 80px 20px;
+	.img_404 {
+		margin-bottom: 80px;
+	}
+	.color_green {
+		color: $vibrant-lime-green;
+		text-align: center;
+		font-family: $font-family_1;
+		font-size: $font-size-64;
+		line-height: $leading--2;
+		letter-spacing: -2.56px;
+	}
+	.not_found {
+		color: $deep-ocean-blue;
+		text-align: center;
+		font-family: $font-family_1;
+		font-size: $font-size-64;
+		line-height: $leading--2;
+		letter-spacing: -2.56px;
+	}
+	p {
+		color:$ocean-deepest;
+		font-size: $font-size-20;
+		line-height: $leading--6;
+		max-width: 592px;
+		margin: 20px auto 30px;
+		text-align: center;
+		font-family: $font-family_2;
+		a {
+			color: $vibrant-lime;
+		}
+	}
+	.back_to_home {
+		font-size: $font-size-16;
+		line-height: $leading--10;
+		font-family: $font-family_3;
+		color: $ocean-deepest;
+		padding: 16px 32px;
+		display: flex;
+		background: rgba(138, 212, 61, 1);
+		align-items: center;
+		gap: 8px;
+		border-radius: 100px;
+	}
+}
+@import '../../breakpoints/404-page-bp/page-not-found-bp';
